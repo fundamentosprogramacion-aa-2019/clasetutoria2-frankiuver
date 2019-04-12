@@ -15,7 +15,14 @@ public class Ejemplo021 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // este es el metodo principal 
+        String nombre_persona;// variable para almacenar un nombre
+        String apelllido_persona;
+        
+        nombre_persona = "Rene Rolando";
+        apelllido_persona = "Elizalde Solano";
+        System.out.println("Mi nombre es: "+nombre_persona+"\n\tMi apellido es: "
+                +apelllido_persona);
     }
     
 }
